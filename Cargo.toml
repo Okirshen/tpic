@@ -1,0 +1,14 @@
+[package]
+name = "tpic"
+version = "0.1.0"
+author=["Ofri Kirshen <okirshen@gmail.com>"]
+license = "MIT"
+description = "A tool for displaying binary images on the terminal"
+readme ="README.md"
+homepage = "https://github.com/okirshen/tpic"
+repository = "https://github.com/okirshen/tpic"
+keywords = ["cli", "binary", "visual", "art"]
+categories = ["command-line-utilities", "visualization"]
+edition = "2018"
+
+[dependencies]
