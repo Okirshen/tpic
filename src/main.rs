@@ -2,7 +2,7 @@ use std;
 
 fn main() {
     let path = std::env::args().last().expect("no path given");
-    let contents = std::fs::read_to_string(path).expect("You fucked up");
+    let contents = std::fs::read_to_string(path).expect("Error reading file from path!");
     render(&contents)
 }
 
